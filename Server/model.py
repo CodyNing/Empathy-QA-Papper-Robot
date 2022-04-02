@@ -8,7 +8,7 @@ import util
 from transformers import BertTokenizer, BertForQuestionAnswering
 
 
-def QA(passage):
+def QA(question):
     # device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
     device = "cuda:0"
     checkpoint_path = os.path.join('./model/checkpoint')
@@ -16,8 +16,8 @@ def QA(passage):
     tokenizer = BertTokenizer.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
     model.to(device)
     model.eval()
-    question = "what do you think?"
-    # passage = "My name is pepper."
+    # question = "what do you think?"
+    passage = ""
     input_ids = tokenizer.encode(question, passage)
     tokens = tokenizer.convert_ids_to_tokens(input_ids)
     sep_index = input_ids.index(tokenizer.sep_token_id)
