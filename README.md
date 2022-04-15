@@ -1,4 +1,5 @@
-Code for PepperRobot can be found here: https://csil-git1.cs.surrey.sfu.ca/yunlongl/empathy-analysis-with-pepper-robot-ac/-/tree/3-merge-pepper-api-with-tts-app/PepperRobot/app/src/main/java/com/example/pepperrobot/MainActivity.java
+Code for PepperRobot can be found here: https://csil-git1.cs.surrey.sfu.ca/yunlongl/empathy-analysis-with-pepper-robot-ac/-/tree/4-pepperrobot/PepperRobot/app/src/main/java/com/example/pepperrobot/MainActivity.java
+- the onResults function from onCreate shows the connection to the server, sending the user's message and getting the response, and the output of the emotions and gestures
 
 Code for the dataset (pytorch_model.bin): https://drive.google.com/file/d/1JcgXKCmXaRSScz6dKIqIhL28AnU1hoiC/view
 
