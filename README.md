@@ -3,6 +3,8 @@ Code for PepperRobot can be found here: https://csil-git1.cs.surrey.sfu.ca/yunlo
 
 Code for the dataset (pytorch_model.bin): https://drive.google.com/file/d/1JcgXKCmXaRSScz6dKIqIhL28AnU1hoiC/view
 
+Animation files for the gestures: https://csil-git1.cs.surrey.sfu.ca/yunlongl/empathy-analysis-with-pepper-robot-ac/-/tree/4-pepperrobot/PepperRobot/app/src/main/res/raw
+
 # Running the code
 Prerequisite : 
 1. Install the Pepper SDK on Android Studio (https://developer.softbankrobotics.com/pepper-qisdk/getting-started/installing-pepper-sdk-plug)
