@@ -11,7 +11,7 @@ Prerequisite :
 
 How to run the code:
 1. In Android Studio, open MainActivity.java.
-2. Connect the Pepper robot and tablet to your PC (Note: You must have the router set up with WiFi)
+2. Connect the Pepper robot and tablet to your PC (Note: You must have the router you are connected to set up with WiFi)
 3. Open the Anaconda Prompt
 4. Navigate to the Server folder
 5. Type 'conda activate uvicorn'
