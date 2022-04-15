@@ -2,7 +2,7 @@ Code for PepperRobot can be found here: https://csil-git1.cs.surrey.sfu.ca/yunlo
 
 Code for the dataset: TBD
 
-#Running the code
+# Running the code
 Prerequisite : 
 1. Install the Pepper SDK on Andorid Studio (https://developer.softbankrobotics.com/pepper-qisdk/getting-started/installing-pepper-sdk-plug)
 2. Ananconda is installed
@@ -20,7 +20,7 @@ How to run the code:
 9. Press the mic button from the app and say something to Pepper robot that is related to the context file provided (/Server/context.txt)
 10. Wait for Pepper to respond. If it fails, try again.
 
-#Self Evaluation
+# Self Evaluation
 - We did the NLP portion of our proposal. We wanted to incorporate a Computer Vision model as well, but we ended up not doing that due to time constraints.
 
 
