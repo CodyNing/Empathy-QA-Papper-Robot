@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="engmix">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/engmix.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
