@@ -4,6 +4,7 @@ import numpy as np
 from PIL import Image
 from io import BytesIO
 from model import QA
+from model import get_emotion
 
 app = FastAPI()
 
@@ -22,7 +23,8 @@ async def get_label(file: UploadFile):
 async def get_response(req: Request):
     body = await req.json()
     answer =  QA(body['question'])
-    return {"answer": answer}
+    emotion = get_emotion(body['question'])[6:]
+    return {"answer": answer, "emotion": emotion}
 
 if __name__ == "__main__":
     uvicorn.run(app,
