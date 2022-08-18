@@ -1,9 +1,15 @@
-Code for PepperRobot can be found here: https://csil-git1.cs.surrey.sfu.ca/yunlongl/empathy-analysis-with-pepper-robot-ac/-/tree/4-pepperrobot/PepperRobot/app/src/main/java/com/example/pepperrobot/MainActivity.java
+# 
+This project is developed on top of Pepper Robot. Please refer to our paper: EmpathyQA - Discovering Emotions based on
+
+Real-life Demo video: https://drive.google.com/file/d/13TUGFMmiUHYo2dP7hocin_5U7zQzmsCR/view
+
+
+Code for PepperRobot can be found here: PepperRobot/app/src/main/java/com/example/pepperrobot/MainActivity.java
 - the onResults function from onCreate shows the connection to the server, sending the user's message and getting the response, and the output of the emotions and gestures
 
 Code for the dataset (pytorch_model.bin): https://drive.google.com/file/d/1JcgXKCmXaRSScz6dKIqIhL28AnU1hoiC/view
 
-Animation files for the gestures: https://csil-git1.cs.surrey.sfu.ca/yunlongl/empathy-analysis-with-pepper-robot-ac/-/tree/4-pepperrobot/PepperRobot/app/src/main/res/raw
+Animation files for the gestures: PepperRobot/app/src/main/res/raw
 
 # Running the code
 Prerequisite : 
@@ -23,7 +29,5 @@ How to run the code:
 9. Press the mic button from the app and say something to Pepper robot that is related to the context file provided (.../Server/context.txt)
 10. Wait for Pepper to respond. If it fails, try again.
 
-# Self Evaluation
-- We did the NLP portion and the robot as promised by our proposal. We were planning to incorporate a Computer Vision model as well, but we ended up not doing that due to time constraints.
 
 
