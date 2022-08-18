@@ -1,5 +1,5 @@
 # 
-This project is developed on top of Pepper Robot. Please refer to our paper: EmpathyQA - Discovering Emotions based on
+This project is developed on top of Pepper Robot. Please check our [paper](https://github.com/CodyNing/Empathy-QA-Papper-Robot/blob/main/EmpathyQA%20-%20Discovering%20Emotions%20based%20on%20Interactive%20Question%20Answering.pdf) for details.
 
 Real-life Demo video: https://drive.google.com/file/d/13TUGFMmiUHYo2dP7hocin_5U7zQzmsCR/view
 
