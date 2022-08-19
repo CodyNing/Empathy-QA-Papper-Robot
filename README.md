@@ -2,15 +2,7 @@
  
 This project is developed on top of Pepper Robot. Please check our [paper](https://github.com/CodyNing/Empathy-QA-Pepper-Robot/blob/main/EmpathyQA%20-%20Discovering%20Emotions%20based%20on%20Interactive%20Question%20Answering.pdf) for details.
 
-Demo video: https://drive.google.com/file/d/13TUGFMmiUHYo2dP7hocin_5U7zQzmsCR/view
-
-
-Code for PepperRobot can be found here: PepperRobot/app/src/main/java/com/example/pepperrobot/MainActivity.java
-- the onResults function from onCreate shows the connection to the server, sending the user's message and getting the response, and the output of the emotions and gestures
-
-Code for the dataset (pytorch_model.bin): https://drive.google.com/file/d/1JcgXKCmXaRSScz6dKIqIhL28AnU1hoiC/view
-
-Animation files for the gestures: PepperRobot/app/src/main/res/raw
+# [Demo Video](https://drive.google.com/file/d/13TUGFMmiUHYo2dP7hocin_5U7zQzmsCR/view)
 
 # Running the code
 Prerequisite : 
@@ -30,5 +22,11 @@ How to run the code:
 9. Press the mic button from the app and say something to Pepper robot that is related to the context file provided (.../Server/context.txt)
 10. Wait for Pepper to respond. If it fails, try again.
 
+## File location
 
+Code for PepperRobot can be found here: PepperRobot/app/src/main/java/com/example/pepperrobot/MainActivity.java
+- the onResults function from onCreate shows the connection to the server, sending the user's message and getting the response, and the output of the emotions and gestures
 
+Code for the dataset (pytorch_model.bin): https://drive.google.com/file/d/1JcgXKCmXaRSScz6dKIqIhL28AnU1hoiC/view
+
+Animation files for the gestures: PepperRobot/app/src/main/res/raw
